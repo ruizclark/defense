@@ -127,7 +127,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 relative">
             <blockquote className="text-center">
               <p className="text-xl md:text-2xl lg:text-3xl font-medium text-white leading-relaxed text-balance">
-                &ldquo;Digital transformation in the age of AI is predicated on the collective aptitude of leaders within a given context to foster system-level coherence, thereby promoting district-wide AI literacy for all learners.&rdquo;
+                Digital transformation in the age of AI is predicated on the collective aptitude of leaders within a given context to foster system-level coherence, thereby promoting district-wide AI literacy for all learners.
               </p>
             </blockquote>
           </div>
@@ -160,13 +160,13 @@ export default function HomePage() {
                 <div className="bg-card rounded-xl p-6 border border-border">
                   <h4 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-2">Organizational Shift</h4>
                   <p className="text-foreground">
-                    Launched amid restructuring, requiring cross-functional collaboration on a new team.
+                    Implemented amid restructuring, requiring cross-functional collaboration on a new team.
                   </p>
                 </div>
                 <div className="bg-card rounded-xl p-6 border border-border">
                   <h4 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-2">First Milestone</h4>
                   <p className="text-foreground">
-                    Led the Powerful Learning Division&apos;s first high-profile fee-for-service project.
+                    Launched the first high-profile fee-for-service project after restructuring. 
                   </p>
                 </div>
                 <div className="bg-card rounded-xl p-6 border border-border">
