@@ -57,7 +57,7 @@ export default function ModelPage() {
                 </p>
                 <blockquote className="border-l-4 border-teal pl-6 py-2 mb-8">
                   <p className="text-foreground font-medium italic">
-                    &ldquo;Adaptive leaders catalyze change management by establishing coherence to foster ambidexterity, enabling digital transformation through AI organizational readiness.&rdquo;
+                    Adaptive leaders catalyze change management by establishing coherence to foster ambidexterity, enabling digital transformation through AI organizational readiness.
                   </p>
                 </blockquote>
               </div>
