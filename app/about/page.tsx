@@ -84,10 +84,10 @@ export default function AboutPage() {
                     For more than 20 years, I have held leadership roles around the globe—driving organizational learning, change management, and innovation in education. As an executive, I led a team of 100 staff who supported over 200 teachers, impacting the lives of 30,000 students.
                   </p>
                   <p className="leading-relaxed mb-6">
-                    During that time, I oversaw the creation of a Master&apos;s program in Teacher Leadership, spearheaded a nationwide School Transformation Initiative, established a Public Policy Lab, and launched an Innovation Accelerator.
+                    During that time, I oversaw the creation of a Master&apos;s program in Teacher Leadership, spearheaded a nationwide School Turnaround Initiative, established a Public Policy Lab, and launched an Innovation Accelerator.
                   </p>
                   <p className="leading-relaxed">
-                    Fueled by my passion for educational innovation, I recently co-founded Qüento, an AI-powered platform that elevates student and community voices.
+                    Driven by a passion for educational innovation, I recently built an AI data wrangling tool, trained an AI Equity Coach, and co-authored an AI Implementation Guide.
                   </p>
                 </div>
               </div>

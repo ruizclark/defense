@@ -103,7 +103,7 @@ export default function OutcomesPage() {
                   Team Perception of Success
                 </h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  Despite the compressed timeline and challenging inter-team dynamics, 80% of team members who completed the survey described the project as a success.
+                  Despite the compressed timeline, 80% of team members who completed the survey described the project as a success.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   This internal assessment reflects the effectiveness of the adaptive leadership approach employed throughout the project, including deep listening, fostering positive relationships, and maintaining clear communication during the rapid sprint.
@@ -188,7 +188,7 @@ export default function OutcomesPage() {
                   The survey also measured leaders&apos; confidence in their ability to articulate AI concepts, strategically leverage AI in current infrastructure, and advocate for meaningful AI integration in classrooms.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Results show strong foundations with 83% expressing confidence in articulating AI concepts and 66% feeling confident in strategic AI leverage within their infrastructure.
+                  Results show strong foundations with 83% expressing confidence in articulating AI concepts.
                 </p>
               </div>
               <div className="bg-card rounded-2xl border border-border overflow-hidden shadow-sm order-1 lg:order-2">
@@ -215,11 +215,10 @@ export default function OutcomesPage() {
               <div className="flex flex-col justify-center">
                 <h3 className="text-2xl font-semibold text-foreground mb-4">Infrastructure & Data Systems</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  The infrastructure assessment reveals a district with strong technical foundations. 73% have at least developing technical infrastructure, and 45% have developing data protection policies in place.
+                  100% of responding executive leaders indicated that the district’s AI policies are at least at an emergent stage.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Data system integration remains an area for growth, with 10% indicating they have not yet started integrating systems to support AI-driven insights.
-                </p>
+                  One of the highest-rated items focused on the district’s technological infrastructure, with a quarter of respondents rating it as “exemplary.”                </p>
               </div>
             </div>
           </div>
@@ -284,8 +283,7 @@ export default function OutcomesPage() {
                   Professional development and classroom integration represent key areas for continued growth. While 100% of leaders report at least emerging access to PD, the instructional use of AI tools remains nascent.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Only 9% report developing use of AI for lesson planning, differentiation, or formative assessment, indicating significant opportunity for the next phase of the partnership.
-                </p>
+                  Nearly one-fifth of respondents indicated that the district lacks sufficient guidance for responsible AI use in the classroom.                </p>
               </div>
             </div>
           </div>
@@ -297,7 +295,7 @@ export default function OutcomesPage() {
             <div className="text-center text-white">
               <h3 className="text-xl font-semibold mb-4">Looking Ahead</h3>
               <p className="text-white/90 leading-relaxed">
-                These results provide evidence that the project largely achieved its intended outcomes. The partnership is currently in talks with the district to continue and gather summative data, with the goal of confirming movement beyond the initial baseline into developing or exemplary levels of AI organizational readiness.
+                These results provide evidence that the project largely achieved the intended outcomes outlined in the logic model. The partnership is currently in talks with the district to continue and gather summative data, with the goal of confirming movement beyond the initial baseline into developing or exemplary levels of AI organizational readiness.
               </p>
             </div>
           </div>

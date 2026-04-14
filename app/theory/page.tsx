@@ -193,38 +193,7 @@ export default function TheoryPage() {
               </div>
             </div>
 
-            <div className="mt-12 grid md:grid-cols-3 gap-8">
-              <div className="relative">
-                <div className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-navy via-teal to-royal-blue rounded-full" />
-                <div className="pl-8">
-                  <h3 className="text-lg font-semibold text-foreground mb-2">Phase 1: Initiation</h3>
-                  <p className="text-sm text-muted-foreground mb-2">August 27 - September 10</p>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    Contract signing, project assumption, co-creative sessions with the district, and formal assumption of the project leader role.
-                  </p>
-                </div>
-              </div>
-              <div className="relative">
-                <div className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-teal via-royal-blue to-light-blue rounded-full" />
-                <div className="pl-8">
-                  <h3 className="text-lg font-semibold text-foreground mb-2">Phase 2: Design Sprint</h3>
-                  <p className="text-sm text-muted-foreground mb-2">September 11 - October 15</p>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    Two-week intensive design sprint with daily standups, internal reviews, and feedback sessions with the district.
-                  </p>
-                </div>
-              </div>
-              <div className="relative">
-                <div className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-royal-blue via-periwinkle to-navy rounded-full" />
-                <div className="pl-8">
-                  <h3 className="text-lg font-semibold text-foreground mb-2">Phase 3: Delivery</h3>
-                  <p className="text-sm text-muted-foreground mb-2">October 16 - October 29</p>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    Lead Champions onboarding, final reviews, facilitator walkthroughs, and delivery of the executive session.
-                  </p>
-                </div>
-              </div>
-            </div>
+
           </div>
         </section>
 
@@ -234,8 +203,7 @@ export default function TheoryPage() {
             <div className="text-center text-white">
               <h3 className="text-xl font-semibold mb-4">Adaptive Leadership in Action</h3>
               <p className="text-white/90 leading-relaxed">
-                The design team responded positively to the facilitation approach, requesting a formal team lead role be assumed on September 10th. From there, daily standups kept the work on track, ultimately delivering a full-day in-person workshop for executive leadership and a one-hour virtual session for approximately 150 school-based AI Champions.
-              </p>
+                Through a human-centered, adaptive leadership approach grounded in deep listening and collaboration, I built trust across the design team, which led to my appointment as team lead on September 10. In this role, I facilitated daily standups to maintain alignment and momentum, culminating in a full-day, in-person workshop for executive leadership. The case study presented here reflects one of two components delivered as part of the first phase of a broader district partnership.              </p>
             </div>
           </div>
         </section>
