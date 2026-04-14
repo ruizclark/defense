@@ -1,7 +1,3 @@
-{"timestamp":"00:00:01.416","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:01.416","source":"Server","level":"LOG","message":"  We detected TypeScript in your project and reconfigured your tsconfig.json file for you."}
-{"timestamp":"00:00:01.417","source":"Server","level":"LOG","message":"  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:\n"}
-{"timestamp":"00:00:01.417","source":"Server","level":"LOG","message":"  \t- include was updated to add '.next/dev/types/**/*.ts'"}
-{"timestamp":"00:00:01.417","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:01.485","source":"Server","level":"LOG","message":""}
-{"timestamp":"01:39:51.408","source":"Server","level":"LOG","message":"✓ Compiled in 73ms"}
+{"timestamp":"00:00:00.808","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:37.202","source":"Server","level":"LOG","message":"✓ Compiled in 77ms"}
+{"timestamp":"00:01:18.966","source":"Server","level":"LOG","message":"✓ Compiled in 88ms"}

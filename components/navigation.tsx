@@ -26,7 +26,7 @@ export function Navigation() {
             href="/" 
             className="text-lg font-semibold text-primary tracking-tight"
           >
-            Ruiz Clark
+            Ruiz Clark | Doctoral Defense
           </Link>
 
           {/* Desktop navigation */}
