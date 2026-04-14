@@ -2,7 +2,7 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { TriangleDecoration, SectionDivider } from "@/components/triangle-decoration"
 import Link from "next/link"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, BrainCircuit, Wind, Target } from "lucide-react" // CHANGED: added Wind and Target
 
 export default function HomePage() {
   return (
@@ -81,9 +81,7 @@ export default function HomePage() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-card rounded-xl p-8 border border-border shadow-sm">
                 <div className="w-12 h-12 rounded-lg bg-navy/10 flex items-center justify-center mb-6">
-                  <svg className="w-6 h-6 text-navy" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                  </svg>
+                  <Wind className="w-6 h-6 text-navy" /> {/* CHANGED */}
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">Turbulent Crosswinds</h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -93,10 +91,7 @@ export default function HomePage() {
 
               <div className="bg-card rounded-xl p-8 border border-border shadow-sm">
                 <div className="w-12 h-12 rounded-lg bg-teal/10 flex items-center justify-center mb-6">
-                  <svg className="w-6 h-6 text-teal" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M12 6v6l4 2" />
-                  </svg>
+                  <Target className="w-6 h-6 text-teal" /> {/* CHANGED */}
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">Ultimate Aim</h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -106,9 +101,7 @@ export default function HomePage() {
 
               <div className="bg-card rounded-xl p-8 border border-border shadow-sm">
                 <div className="w-12 h-12 rounded-lg bg-royal-blue/10 flex items-center justify-center mb-6">
-                  <svg className="w-6 h-6 text-royal-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                  </svg>
+                  <BrainCircuit className="w-6 h-6 text-royal-blue rotate-90" />
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">Core Argument</h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -127,7 +120,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 relative">
             <blockquote className="text-center">
               <p className="text-xl md:text-2xl lg:text-3xl font-medium text-white leading-relaxed text-balance">
-                &ldquo;Digital transformation in the age of AI is predicated on the collective aptitude of leaders within a given context to foster system-level coherence, thereby promoting district-wide AI literacy for all learners.&rdquo;
+                Digital transformation in the age of AI is predicated on the collective aptitude of leaders within a given context to foster system-level coherence, thereby promoting district-wide AI literacy for all learners.
               </p>
             </blockquote>
           </div>
@@ -160,13 +153,13 @@ export default function HomePage() {
                 <div className="bg-card rounded-xl p-6 border border-border">
                   <h4 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-2">Organizational Shift</h4>
                   <p className="text-foreground">
-                    Launched amid restructuring, requiring cross-functional collaboration on a new team.
+                    Implemented amid restructuring, requiring cross-functional collaboration on a new team.
                   </p>
                 </div>
                 <div className="bg-card rounded-xl p-6 border border-border">
                   <h4 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-2">First Milestone</h4>
                   <p className="text-foreground">
-                    Led the Powerful Learning Division&apos;s first high-profile fee-for-service project.
+                    Launched the first high-profile fee-for-service project after restructuring. 
                   </p>
                 </div>
                 <div className="bg-card rounded-xl p-6 border border-border">
@@ -269,6 +262,14 @@ export default function HomePage() {
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-secondary transition-colors"
               >
                 View Outcomes
+              </Link>
+              <Link
+              href="/defense-deck.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-secondary transition-colors"
+              >
+              Download Deck
               </Link>
             </div>
           </div>
